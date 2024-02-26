@@ -1,5 +1,7 @@
 This LaTex template is designed to speed up scientific writing by structuring the content in a similar file structure as HTML website design. This makes it easier to organize your writing and quickly navigate through your document.
 
+FIND A MORE COMPLICATED VERSION [HERE](https://github.com/JDLanctot/latex_template).
+
 ## Table of Contents
 
 - [Features](#features)
