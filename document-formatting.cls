@@ -172,3 +172,9 @@
 
 % Colour Grade Tables with highlight.sty
 \usepackage{hhline} % used for the top-most horizontal line! in order to fix the top left corner cell empty
+% \usepackage{Styles/highlight}
+% \renewcommand{\opacity}{50}
+
+% WHAT CITATION STYLE FROM THE STYLES FOLDER TO USE (Either: Styles/IEEE, Styles/MLA, Styles/Chicago, Styles/APA)
+\usepackage{Styles/IEEE}
+\addbibresource{references.bib}
