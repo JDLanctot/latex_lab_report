@@ -1,6 +1,6 @@
 % Gets the style guide to apply to the document such as font sizes for various wrappers, spacing before and after sections, etc.
 % \documentclass[letterpaper,twoside,openright]{IEEE} %this is for double sided alternating the extra margin on left and right pages
-\documentclass[letterpaper,onesided,openright]{APA}
+\documentclass[letterpaper,onesided,openright]{document-formatting}
 
 % Hides addition of external plugins
 \input{Sections/0-header}\unskip
@@ -14,20 +14,24 @@
 \newpage
 \input{Sections/2-introduction}
 
+% Theory
+\newpage
+\input{Sections/3-theory}
+
 % Methods and Materials
 \newpage
-\input{Sections/3-methods}
+\input{Sections/4-methods}
 
 % Results
 \clearpage
-\input{Sections/4-results}
+\input{Sections/5-results}
 
 % Discussion and Conclusion
 \clearpage
-\input{Sections/5-discussion}
+\input{Sections/6-discussion}
 
 % References
 \newpage
-\input{Sections/6-references}
+\input{Sections/7-references}
 
 \end{document}
