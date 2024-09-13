@@ -105,24 +105,27 @@
     }{\par\vspace{-6pt}}
 
 %% Redefine the \section command.
-\renewcommand{\section}{\@startsection {section}{1}{0pt}%
-    {-6pt}{1pt}%
-    {\bfseries}%
-    }
-\renewcommand{\subsection}{\@startsection {subsection}{2}{0pt}%
-    {-2em}{-2.5em}%
-    {\bfseries}*%
-    }
-\renewcommand{\subsubsection}{\@startsection {subsubsection}{3}{0pt}%
-    {-2em}{-2.5em}%
-    {\bfseries}*%
-    }
+% \renewcommand{\section}{\@startsection {section}{1}{0pt}%
+%     {-6pt}{1pt}%
+%     {\bfseries}%
+%     }
+% \renewcommand{\subsection}{\@startsection {subsection}{2}{0pt}%
+%     {-2em}{-2.5em}%
+%     {\bfseries}*%
+%     }
+% \renewcommand{\subsubsection}{\@startsection {subsubsection}{3}{0pt}%
+%     {-2em}{-2.5em}%
+%     {\bfseries}*%
+%     }
 
 %% Define the methods environment.  Use \subsection to separate.
-\newenvironment{methods}{%
-    \section*{Methods}%
-    \setlength{\parskip}{12pt}%
+\newenvironment{outline-of-proposed-research}{%
+    \pagestyle{fancyArabic}
+    % \addcontentsline{toc}{section}{Outline of Proposed Research}
+    \section*{Outline of Proposed Research}
+    \setlength{\parindent}{0in}%
     }{}
+    
 
 %% No heading for References section, but eat up the extra space from \section command
 \renewcommand\refname{\vspace{-48pt}\setlength{\parskip}{12pt}}
